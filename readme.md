@@ -1,6 +1,6 @@
 ## 项目来源
 
-这个项目 fork 自[kkfive/emotion_generate](https://github.com/kkfive/emotion_generate)，主要用于个人博客评论系统Artalk的表情包来源。
+这个项目fork自[kkfive/emotion_generate](https://github.com/kkfive/emotion_generate)，主要用于个人博客评论系统[Artalk](https://github.com/ArtalkJS/Artalk)的表情包来源。
 
 
 ## 如何使用
@@ -15,6 +15,6 @@ frontend:
 ```
 
 
-最终呈现效果如下：
+最终呈现效果如下，你也可以直接到我的个人博客实地考察，[https://wiki.eryajf.net](https://wiki.eryajf.net)，欢迎来访并留下足迹。
 
 ![image_20230228_165843](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230228_165843.jpg)
