@@ -1,54 +1,20 @@
-## 这是什么
+## 项目来源
 
-这个项目主要是为了便于生成 Twikoo、Artalk、Waline 评论的表情包。
+这个项目 fork 自[kkfive/emotion_generate](https://github.com/kkfive/emotion_generate)，主要用于个人博客评论系统Artalk的表情包来源。
 
-## 关于使用
 
-此项目为个人使用，当然这并不意味着你不可以使用。
+## 如何使用
 
-## 直接使用此项目的文件
+在artalk的配置文件中，配置表情包地址如下：
 
-关于此项目的产物参考`src/config.js`文件。
-
-例如 阿鲁表情包的配置如下：
-
-```json
-[
-  {
-    "name": "阿鲁",
-    "path": "aru",
-    "prefix": "aru-",
-    "baseUrl": "https://emotion-new.acs.pw/aru/image",
-    "twikoo": {
-      "name": `阿鲁`
-    },
-    "artalk": {
-      "name": `阿鲁`
-    }
-  }
-]
+```yaml
+# 前端配置
+frontend:
+  # 表情包
+  emoticons: "https://cdn.jsdelivr.net/gh/eryajf/emotion_generate/dist/artalk.json"
 ```
 
-那么远程链接使用的对应文件路径如下：
 
-```
-https://emotion-new.acs.pw/aru/valine.json
-https://emotion-new.acs.pw/aru/artalk.json
-https://emotion-new.acs.pw/aru/twikoo.json
-https://emotion-new.acs.pw/aru/discuss.json
-https://emotion-new.acs.pw/aru/info.json // waline 寻找 info.json 文件
-```
+最终呈现效果如下：
 
-> `https://emotion-new.acs.pw`此域名为我个人的静态服务绑定的域名。
-
-## 自己使用
-
-1. ~~为此项目点个 Star~~，然后 fork 此项目
-
-2. 将你的图片按照我的格式放入`src/image`目录下
-
-3. 调整`src/config.js`文件，然后运行`src/index.js`脚本即可（或者 `npm run build`）。
-
-   > 在`windows`系统下运行会无法将图片复制到产物目录。
-
-4. 接下来将会生成`dist`目录，将其作为静态资源部署即可。
+![image_20230228_165843](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230228_165843.jpg)
