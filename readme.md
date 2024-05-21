@@ -17,4 +17,4 @@ frontend:
 
 最终呈现效果如下，你也可以直接到我的个人博客实地考察，[https://wiki.eryajf.net](https://wiki.eryajf.net)，欢迎来访并留下足迹。
 
-![](https://t.eryajf.net/imgs/2024/05/1716288672198.webp)
+![](./src/example.webp)
